@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Yogendhar Sri Ram - Full Stack Developer" width="100%"/>
+<img src=".banner.svg" alt="Yogendhar Sri Ram - Full Stack Developer" width="100%"/>
 
 <br/>
 
