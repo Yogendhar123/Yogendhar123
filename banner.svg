@@ -1,0 +1,63 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#050507"/>
+    <stop offset="0.55" stop-color="#12070A"/>
+    <stop offset="1" stop-color="#050507"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 130) rotate(145) scale(430 260)">
+    <stop stop-color="#FF2525" stop-opacity=".48"/>
+    <stop offset="1" stop-color="#FF2525" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+
+<rect width="1280" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1280" height="360" rx="22" fill="url(#glow)"/>
+
+<!-- cinematic red light -->
+<path d="M-50 315 C250 235 430 350 690 265 C920 190 1080 230 1330 95"
+      stroke="#FF2020" stroke-width="3" opacity=".85"/>
+<path d="M-40 330 C260 250 440 365 700 280 C940 205 1080 245 1320 110"
+      stroke="#FF2020" stroke-width="14" opacity=".12" filter="url(#blur)"/>
+
+<!-- circuit / tech lines -->
+<g opacity=".38" stroke="#FF3B3B">
+  <path d="M850 48h85l20 20h115"/>
+  <path d="M1040 285h75l25-25h110"/>
+  <path d="M760 290h70l18-18h70"/>
+  <path d="M1110 72v38l-22 22v54"/>
+</g>
+<g fill="#FF4444">
+  <circle cx="935" cy="48" r="3"/><circle cx="1068" cy="68" r="3"/>
+  <circle cx="1115" cy="285" r="3"/><circle cx="918" cy="272" r="3"/>
+</g>
+
+<!-- title -->
+<text x="80" y="120" fill="#FF3434" font-family="Arial, Helvetica, sans-serif"
+      font-size="18" font-weight="700" letter-spacing="5">BUILDING REAL-WORLD TECH</text>
+
+<text x="80" y="178" fill="white" font-family="Arial, Helvetica, sans-serif"
+      font-size="48" font-weight="800" letter-spacing="1">YOGENDHAR SRI RAM</text>
+
+<text x="83" y="216" fill="#D8D8D8" font-family="Arial, Helvetica, sans-serif"
+      font-size="19" font-weight="600" letter-spacing="3">FULL STACK DEVELOPER • AI • CLOUD</text>
+
+<text x="83" y="264" fill="#FF5A5A" font-family="monospace"
+      font-size="15">&lt;/&gt; Turning ideas into production-ready applications</text>
+
+<!-- right-side orbital core -->
+<g transform="translate(1070 180)">
+  <circle r="92" stroke="#FF2C2C" stroke-opacity=".18" stroke-width="2"/>
+  <circle r="68" stroke="#FF2C2C" stroke-opacity=".32" stroke-width="1.5"/>
+  <ellipse rx="105" ry="34" transform="rotate(-25)" stroke="#FF3434" stroke-opacity=".42"/>
+  <ellipse rx="105" ry="34" transform="rotate(25)" stroke="#FF3434" stroke-opacity=".28"/>
+  <circle r="28" fill="#FF2525" fill-opacity=".12" stroke="#FF3C3C" stroke-width="2"/>
+  <text x="-16" y="7" fill="white" font-family="Arial" font-size="20" font-weight="800">YSR</text>
+  <circle cx="68" cy="-38" r="6" fill="#FF3C3C"/>
+  <circle cx="-62" cy="42" r="5" fill="#FF5A5A"/>
+</g>
+
+<rect x="1" y="1" width="1278" height="358" rx="21" stroke="#FF3030" stroke-opacity=".25"/>
+</svg>
